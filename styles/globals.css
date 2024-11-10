@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #242424; /* Change this to your preferred color */
+  }
+.markdown-content h1, 
+.markdown-content h2, 
+.markdown-content h3, 
+.markdown-content h4, 
+.markdown-content h5, 
+.markdown-content h6 {
+  color: yellowgreen; /* Set headers to white */
+}
+.markdown-content a {
+    color: lightblue; /* Lighter white color on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+  }
+  .markdown-content strong {
+    color: #FFD700; /* Example: Gold color for highlighted text */
+  }
