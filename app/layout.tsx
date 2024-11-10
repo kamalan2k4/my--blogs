@@ -132,7 +132,7 @@ export default function RootLayout({
       <head>
         <title>kamal's Blog</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/profile.jpg" />
       </head>
       <body>
         <div className="mx-auto max-w-2xl px-6">
