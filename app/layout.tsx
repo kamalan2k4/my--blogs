@@ -85,11 +85,13 @@ export default function RootLayout({
       <div className="text-center bg-[#1b1a1e] p-8 my-6 rounded-md w-full">
         {/* Dark Mode Toggle Button */}
         <button
-          onClick={toggleDarkMode}
-          className="absolute top-4 right-4 p-2 sm:p-1 bg-gray-800 text-white rounded-full text-xs sm:text-sm"
-        >
-          {isDarkMode ? "🌙" : "🌞"}
-        </button>
+  onClick={toggleDarkMode}
+  className="absolute top-4 right-4 p-4 sm:p-3 bg-gray-800 text-white rounded-full text-3xl sm:text-4xl flex items-center justify-center"
+>
+  {isDarkMode ? "🌙" : "🌞"}
+</button>
+
+
 
         <Image
           src="/profile.jpg"
