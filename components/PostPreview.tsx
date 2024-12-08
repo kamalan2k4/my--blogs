@@ -5,7 +5,7 @@ const PostPreview = (props: PostMetadata) => {
   return (
     <div
       className="border border-black p-4 rounded-md shadow-sm
-    bg-post"
+    bg-post transform hover:scale-105 transition-transform duration-300"
     >
       <p className="text-sm text-[#deb887]">{props.date}</p>
 
